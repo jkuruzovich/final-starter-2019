@@ -1,0 +1,24 @@
+language: python
+python:
+  - "3.6"
+install:
+  - wget https://github.com/RPI-DATA/submitty/archive/v1.0.tar.gz -O /tmp/submitty.tar.gz
+  - tar -xvf /tmp/submitty.tar.gz
+  - cp -r submitty-1.0/gopher/tests ./tests
+  - cp submitty-1.0/gopher/lab02.ok .
+  - pip3 install -U jupyter
+  - pip3 install -U git+https://github.com/grading/gradememaybe.git
+
+script:
+  - jupyter nbconvert --to markdown --execute assignment1.ipynb
+  - python3 compute_grade.py assignment1.md
+
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+  webhooks:
+    urls:
+      - https://maker.ifttt.com/trigger/assignment_graded/with/key/cJTFdtpSVL0hKEh9UTweau
+      - http://c46fe22d.ngrok.io
+
