@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> train_accuracy
-          0.88490333196215554
+          0.8849033319621555
           """,
           'hidden': False,
           'locked': False
@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> test_accuracy
-          0.88178269772203732
+          0.6964551409590365
           """,
           'hidden': False,
           'locked': False
