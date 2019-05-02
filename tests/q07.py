@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> test_accuracy
-          0.6964551409590365
+          0.8817826977220373
           """,
           'hidden': False,
           'locked': False

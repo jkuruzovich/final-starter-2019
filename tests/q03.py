@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> r2_train_cost
-          0.51460627323440655
+          0.6964551409590365
           """,
           'hidden': False,
           'locked': False
@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> r2_test_cost
-          0.5025649808816941
+          0.6983619671189338
           """,
           'hidden': False,
           'locked': False
