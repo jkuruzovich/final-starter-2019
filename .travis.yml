@@ -17,8 +17,4 @@ notifications:
   email:
     on_success: always
     on_failure: always
-  webhooks:
-    urls:
-      - https://maker.ifttt.com/trigger/assignment_graded/with/key/cJTFdtpSVL0hKEh9UTweau
-      - http://c46fe22d.ngrok.io
 
