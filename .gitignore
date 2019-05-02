@@ -19,6 +19,4 @@ build
 .DS_Store
 *.notes
 .directory
-./data
-./data/ny/*
-./data/ma/*
+data/*
