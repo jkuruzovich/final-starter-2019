@@ -2,9 +2,6 @@ language: python
 python:
   - "3.6"
 install:
-  - wget https://raw.githubusercontent.com/jkuruzovich/final-starter-2019/master/final.ok
-  - wget https://github.com/jkuruzovich/final-starter-2019/raw/master/tests.zip
-  - unzip ./tests.zip
   - pip3 install -U jupyter
   - pip3 install -U git+https://github.com/data-8/Gofer-Grader
 
