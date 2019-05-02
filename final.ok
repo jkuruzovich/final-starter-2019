@@ -1,0 +1,15 @@
+{
+  "name": "Homework 2: Data Types",
+  "endpoint": "rpi/tf/sp19/final",
+  "src": [
+    "final-2019.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
