@@ -1,21 +1,13 @@
 test = {
-  'name': 'Question',
+  'name': '2c',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> r2_train_cost
-          0.6964551409590365
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> r2_test_cost
-          0.6983619671189338
+          >>> "{0:.4f}".format(round( r2_train_cost,4))
+          '0.6965'
           """,
           'hidden': False,
           'locked': False

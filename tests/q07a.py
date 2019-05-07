@@ -1,21 +1,13 @@
 test = {
-  'name': 'Question',
+  'name': '7a',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> total_high_cost_ny
-          21558
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> total_high_cost_ma
-          22505
+          >>> "{0:.4f}".format(round( train_accuracy,4))
+          '0.9087'
           """,
           'hidden': False,
           'locked': False

@@ -1,21 +1,13 @@
 test = {
-  'name': 'Question',
+  'name': '6a',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> splittest1
-          (72930, 40)
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> splittest2
-          0
+          >>> splittest3
+          1
           """,
           'hidden': False,
           'locked': False

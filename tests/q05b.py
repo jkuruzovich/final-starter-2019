@@ -1,21 +1,13 @@
 test = {
-  'name': 'Question',
+  'name': '5b',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> cost_ma == 17.906257207081175
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> cost_ny==15.188246329742485
-          True
+          >>> total_high_cost_ma
+          16631
           """,
           'hidden': False,
           'locked': False

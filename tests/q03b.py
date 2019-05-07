@@ -6,16 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> train_accuracy
-          0.8849033319621555
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> test_accuracy
-          0.8817826977220373
+          >>> "{0:.4f}".format(round( r2_test_cost,4))
+          '0.6984'
           """,
           'hidden': False,
           'locked': False

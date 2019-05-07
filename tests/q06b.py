@@ -1,17 +1,9 @@
 test = {
-  'name': 'Question',
+  'name': '6b',
   'points': 1,
   'suites': [
     {
       'cases': [
-        {
-          'code': r"""
-          >>> splittest3
-          1
-          """,
-          'hidden': False,
-          'locked': False
-        },
         {
           'code': r"""
           >>> splittest4
